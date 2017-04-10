@@ -6,15 +6,15 @@
 ### Basic usage
 ```javascript
 var video = document.getElementById('video');
-var cpv = new CPVCounter(video, 1, 'http://memory.dataram.com/images/page-images/newlogoheader21.png');
+var cpv = new CPVCounter(video, 1, 'http://domain.test/i.gif');
 ```
 
 ### Extended usage
 ```javascript
 var cpv_list = [
-   {point: 1, pixel: 'http://default.com/image1.gif'},
-   {point: 2, pixel: 'http://default.com/image2.gif'},
-   {point: 3, pixel: 'http://default.com/image3.gif'}
+   {point: 1, pixel: 'http://domain.test/i1.gif'},
+   {point: 2, pixel: 'http://domain.test/i2.gif'},
+   {point: 3, pixel: 'http://domain.test/i3.gif'}
 ]
 
 var video = document.getElementById('video');
