@@ -1,4 +1,4 @@
-/**
+/*!
  * CPV Counter (v1.0.20160212), http://tpkn.me
  */
 
