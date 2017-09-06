@@ -1,13 +1,9 @@
-# CPV Counter
-
-
-
-
 ### Basic usage
 ```javascript
 var video = document.getElementById('video');
 var cpv = new CPVCounter(video, 1, 'http://domain.test/i.gif');
 ```
+<br />
 
 ### Extended usage
 ```javascript
@@ -26,6 +22,7 @@ for (var i = 0, len = cpv_list.length; i < len; i++) {
 }
 
 ```
+<br />
 
 ### Kill counter
 ```javascript
