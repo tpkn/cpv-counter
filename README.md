@@ -1,11 +1,13 @@
-### Basic usage
+# CPV Counter
+
+
+## Basic usage
 ```javascript
 var video = document.getElementById('video');
 var cpv = new CPVCounter(video, 1, 'http://domain.test/i.gif');
 ```
-<br />
 
-### Extended usage
+## Extended usage
 ```javascript
 var cpv_list = [
    {time: 1, pixel: 'http://domain.test/i1.gif'},
@@ -22,9 +24,8 @@ for (var i = 0, len = cpv_list.length; i < len; i++) {
 }
 
 ```
-<br />
 
-### Kill counter
+## Kill counter
 ```javascript
 cpv.kill();
 
