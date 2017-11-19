@@ -1,5 +1,5 @@
 # CPV Counter
-
+Trigger pixel when video reaches specific time point 
 
 ## Basic usage
 ```javascript
